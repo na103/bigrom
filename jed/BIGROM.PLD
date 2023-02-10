@@ -1,0 +1,42 @@
+Name     Bigrom A590 ;
+PartNo   00 ;
+Date     10/02/2023 ;
+Revision 01 ;
+Designer Nicola Avanzi ;
+Company  no profit ;
+Assembly None ;
+Location  ;
+Device   g16v8a ;
+
+
+
+
+/* *************** INPUT PINS **********************/
+
+PIN 2 = A12 ;
+PIN 3 = A7 ;
+PIN 4 = A6 ;
+PIN 5 = A5 ;
+PIN 6 = A8 ;
+PIN 7 = A1 ;
+PIN 8 = A0 ;
+PIN 9 = A11 ;
+PIN 12 = A13 ;
+PIN 13 = CE ;
+PIN 14 = A10 ;
+PIN 15 = OE ;
+PIN 16 = A9 ;
+PIN 17 = ACT_A14 ;
+
+
+/* *************** OUTPUT PINS *********************/
+
+PIN 19 = A14_OUT ;
+
+/* *************** LOGIC EQUATIONS *****************/
+
+
+ACT_A14 = !A13 & A12 & !A11 & !A10 & !A9 & !A8 & !A7 & !A6 & !A5 & !CE & !OE;
+
+A14_OUT.D = A0 ;
+
