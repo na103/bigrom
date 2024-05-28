@@ -19,6 +19,10 @@ Programming of the ATF16V8 must be done before soldering using the TL866 with a 
 in working configuration SW2,SW3 are closed and SW1 open, like a image above<br>
 if the A590 Hard disk metal holder touches the rom you can remove the plastic from the header strips so as to lower the profile just enough for it to close properly.
 
+<br>
+If you found this my work useful, please consider buying me a cup of coffee if you want:<br>
+<a href='https://ko-fi.com/na103' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/cup-border.png' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 # License
 
 This work is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
